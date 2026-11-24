@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="es">
+<head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KX76XF8R');</script>
+<!-- End Google Tag Manager -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Visión por computador</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Cómo una computadora interpreta imágenes: filtros y bordes, características y correspondencias, geometría de cámaras y calibración, estéreo y reconstrucción 3D, flujo óptico, seguimiento, segmentación y detección de objetos, con una app que usa la cámara del lector.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=JetBrains+Mono:wght@400;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400;1,8..60,600&display=swap">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KX76XF8R"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<div class="wrap" data-page="index">
+<header class="topbar"><a class="brand" href="index.html">Visión por <b>computador</b></a><span class="eyebrow">Curso visual e interactivo · Computación</span><a class="al-sitio" href="https://aaramirez.github.io/">← Todos los cursos</a></header>
+<div class="layout">
+<nav class="toc" id="toc" aria-label="Ruta de aprendizaje"></nav>
+<main>
+
+<header class="hero">
+  <span class="eyebrow">Curso visual e interactivo · Computación</span>
+  <h1>Enseñarle a una cámara a ver: de los píxeles a contar y seguir objetos</h1>
+  <p class="lede">Para una computadora, una foto es una tabla de números. Encontrar en ella bordes, objetos, distancias y movimiento exige geometría, probabilidad y aprendizaje. Este curso recorre ese camino con la cámara de tu equipo: cada capítulo agrega una capacidad a una app que termina contando y siguiendo objetos en vivo.</p>
+</header>
+
+<section>
+  <h2>Cómo usar este curso</h2>
+  <div class="prose">
+    <p><b>Estado.</b> El curso está en preparación. La <a href="temario.html">tabla de contenido</a> ya tiene los 11 capítulos con sus secciones y sus laboratorios, y está en revisión.</p>
+    <p><b>Para quién es.</b> Para estudiantes de computación y programadores con base de álgebra lineal (en Álgebra lineal) y probabilidad (en Probabilidad y estadística). Las redes convolucionales no se explican aquí: están en Aprendizaje profundo, y conviene haberlas visto antes de la parte 3. La proyección de una cámara como la usa quien dibuja está en Computación gráfica; aquí se recorre al revés, de la imagen al mundo.</p>
+    <p><b>Cómo está hecho.</b> Una app con la cámara recorre el curso: apuntas a una mesa donde mueves monedas, fichas o tazas, y la app aprende a separarlas del fondo, a medirlas, a reconocerlas y a seguirlas mientras se mueven, hasta contar cuántas cruzan una línea. Todo corre en el navegador, con la cámara en vivo o con un video de muestra para quien no quiera usarla, y ninguna imagen sale del equipo. Los laboratorios dejan mover un filtro, un umbral o un parámetro de la cámara y ver el resultado sobre la imagen.</p>
+  </div>
+</section>
+
+<details class="stage" id="temario" open><summary><h2><span class="pn">Empieza aquí</span> Tabla de contenido</h2></summary>
+  <div class="mods">
+    <a class="mod" href="temario.html"><span class="n">≡</span><b>Tabla de contenido</b><p>Cada capítulo con sus secciones y sus laboratorios.</p></a>
+  </div>
+</details>
+
+<details class="stage" id="parte-1" open><summary><h2><span class="pn">Parte 1</span> La imagen</h2><span class="cuenta" data-etapa-cuenta="1"></span></summary>
+  <div class="mods">
+    <div class="mod soon" data-id="imagenes-como-datos"><span class="n">01</span><b>Imágenes como datos</b><p>Cómo se forma una imagen en el sensor, qué guarda cada píxel y la app con la cámara que crece en el curso.</p></div>
+    <div class="mod soon" data-id="filtros-bordes-y-regiones"><span class="n">02</span><b>Filtros, bordes, umbrales y morfología</b><p>Suavizar, encontrar bordes y separar los objetos del fondo para contarlos por primera vez.</p></div>
+  </div>
+</details>
+
+<details class="stage" id="parte-2" open><summary><h2><span class="pn">Parte 2</span> Geometría</h2><span class="cuenta" data-etapa-cuenta="2"></span></summary>
+  <div class="mods">
+    <div class="mod soon" data-id="caracteristicas-y-correspondencias"><span class="n">03</span><b>Características, correspondencias y homografías</b><p>Encontrar los mismos puntos en dos imágenes y la transformación que las une, aunque haya errores.</p></div>
+    <div class="mod soon" data-id="geometria-de-camaras"><span class="n">04</span><b>Geometría de cámaras y calibración</b><p>El modelo estenopeico al revés: de los píxeles a los rayos, y cómo medir los parámetros de una cámara real.</p></div>
+    <div class="mod soon" data-id="estereo-y-profundidad"><span class="n">05</span><b>Geometría epipolar, estéreo y profundidad</b><p>Dos vistas bastan para medir distancias: la restricción epipolar y el mapa de disparidad.</p></div>
+    <div class="mod soon" data-id="reconstruccion-3d"><span class="n">06</span><b>Reconstrucción 3D: estructura a partir del movimiento</b><p>Recuperar la forma de una escena y la posición de la cámara a partir de muchas fotos.</p></div>
+  </div>
+</details>
+
+<details class="stage" id="parte-3" open><summary><h2><span class="pn">Parte 3</span> Reconocer</h2><span class="cuenta" data-etapa-cuenta="3"></span></summary>
+  <div class="mods">
+    <div class="mod soon" data-id="segmentacion"><span class="n">07</span><b>Segmentación</b><p>Dividir la imagen en regiones con sentido: de los métodos clásicos a la segmentación por píxel con redes.</p></div>
+    <div class="mod soon" data-id="deteccion-de-objetos"><span class="n">08</span><b>Detección de objetos</b><p>Encontrar y nombrar cada objeto con una caja: de las ventanas deslizantes a YOLO y DETR.</p></div>
+  </div>
+</details>
+
+<details class="stage" id="parte-4" open><summary><h2><span class="pn">Parte 4</span> Movimiento</h2><span class="cuenta" data-etapa-cuenta="4"></span></summary>
+  <div class="mods">
+    <div class="mod soon" data-id="flujo-optico"><span class="n">09</span><b>Flujo óptico</b><p>Cuánto y hacia dónde se mueve cada parte de la imagen entre un cuadro y el siguiente.</p></div>
+    <div class="mod soon" data-id="seguimiento"><span class="n">10</span><b>Seguimiento de objetos</b><p>Dar identidad a cada objeto a lo largo del video y contar los que cruzan una línea.</p></div>
+    <div class="mod soon" data-id="la-app-completa"><span class="n">11</span><b>La app completa: rendimiento, evaluación y uso responsable</b><p>Juntar todo en una app que corre en el dispositivo, medirla con honestidad y decidir dónde no debe usarse.</p></div>
+  </div>
+</details>
+
+
+
+<nav class="pager" id="pager" aria-label="Capítulo anterior y siguiente"></nav>
+</main>
+</div>
+<footer><span>Curso abierto de aaramirez.github.io.</span><span>Sitio publicado: <a href="https://github.com/aaramirez/vision-por-computador" target="_blank" rel="noopener">github.com/aaramirez/vision-por-computador</a></span></footer>
+</div>
+<script src="assets/lab.js"></script>
+</body>
+</html>
