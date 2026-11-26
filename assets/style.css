@@ -347,7 +347,7 @@ details.stage+details.stage{margin-top:-20px}
 .fig .t-m{fill:var(--muted)}
 .fig .t-s{font-size:11px}
 .fig .t-xs{font-size:10px;letter-spacing:.06em}
-.fig .t-mono{font-family:var(--f-mono)}
+.fig .t-mono{font-family:var(--f-mono);font-variant-ligatures:none}
 .fig .caja{fill:var(--card);stroke:var(--line);stroke-width:1.2}
 .fig .ln{stroke:var(--muted);stroke-width:1.4;fill:none}
 .fig .ln-d{stroke-dasharray:4 4}
@@ -386,7 +386,7 @@ section{grid-template-columns:minmax(0,1fr)}
 .lab{grid-template-columns:minmax(0,1fr)}
 .lab select{width:100%}
 .lab .opciones label{min-width:0}
-.prose code,.practica code,.investiga code,.pruebate code,.practica a,.investiga a,.pruebate a{overflow-wrap:anywhere}
+.prose code,.practica code,.investiga code,.pruebate code,.analogia code,.caso code,.ml code,.analogia a,.caso a,.ml a,.practica a,.investiga a,.pruebate a{overflow-wrap:anywhere}
 [hidden]{display:none!important}
 .lab>*{min-width:0}
 .fig .k-warm{fill:var(--warm)} .fig .s-warm{stroke:var(--warm)}
@@ -414,7 +414,7 @@ section{grid-template-columns:minmax(0,1fr)}
 .cmd-nota{font-size:.82rem;color:var(--muted);margin:0}
 .cmd-l{display:flex;align-items:center;gap:8px;min-width:0}
 .cmd-l code{flex:1;min-width:0;overflow-x:auto;white-space:pre;font-size:.85rem;padding:7px 9px;background:var(--card);border:1px solid var(--line);border-radius:6px}
-.cmd-c{font:.8rem var(--f-mono);color:var(--muted);padding:2px 2px 0;overflow-wrap:anywhere}
+.cmd-c{font:.8rem var(--f-mono);color:var(--muted);padding:2px 2px 0;overflow-wrap:anywhere;font-variant-ligatures:none}
 .copiar{flex:none;font:600 .74rem var(--f-display);padding:6px 10px;border:1px solid var(--line);border-radius:6px;background:var(--card);color:var(--ink);cursor:pointer}
 .copiar:hover,.copiar:focus-visible{border-color:var(--good)}
 .copiar.ok{background:var(--good);border-color:var(--good);color:var(--card)}
